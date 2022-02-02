@@ -1,17 +1,17 @@
-# SAP Fallstudie Universität
+SAP Fallstudie Universität
 
 Verwaltung von Prüfungsergebnissen
 
 Prototyp soll im Web Browser (Web Dynpro Anwendung) implementiert werden.
 
-### Anforderungen:
+Anforderungen:
 ==============
 1. Verwaltung von Studenten, Prüfungen und Prüfungsteilnahmen (Ergebnissen).
    1.1. Studenten: Name, Vorname, Matrikelnummer und Studiengang.
    1.2. Prüfungen: ID, Name, Datum der Prüfung, Art (Mündlich, Schriftlich), Prüfer und Kreditpunkte. 
    1.3. Teilnahme: Matrikelnummer, PrüfungsId, TeilnahmeId, Ergebnis (Note).
 
-### Views:
+Views:
 ======
 1. Alle Prüfungsergebnisse eines Studenten, BUTTONS STUDENT_CREATE, STUDENT_EDIT, STUDENT_DELETE.
 2. Alle Prüfungsergebnissen einer bestimmten Prüfung, BUTTONS TEST_CREATE, TEST_EDIT, TEST_DELETE.
@@ -32,7 +32,7 @@ VIEW_TEILNAHME
  VIEW_EDIT_TEILNAME
  DELETE_TEILNAHME (func)
 
-### Features:
+Features:
 =========
 ANLEGEN, ÄNDERN, LÖSCHEN von Studenten, Prüfungen oder Teilnahmen.
 
@@ -40,13 +40,13 @@ ZZ3002_STUDENTEN
 ZZ3002_TEILNAHME
 ZZ3002_TEST
 
-### Steps
+Steps
 =====
 1. Entwicklung der Tabellen Studenten, Prüfungen und Ergebnissen.
 2. Definition des Web Dynpro Contexts
 3. Erste Feld soll MANDT (Mandant) sein
 
-### Usability
+Usability
 =========
 1. Oberfläche soll benutzerfreundlich sein
 2. Fehlerhafte Eingaben sollen abgefangen werden
@@ -69,3 +69,8 @@ Diese Methoden können aus den onaction- bzw wddomodify Methoden des View aufger
 
 12. Debugging /nST22
 13. Häufiger Fehler sind Kardinalitäten im Context tipp 0..n
+
+
+
+
+

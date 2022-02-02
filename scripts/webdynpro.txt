@@ -1,0 +1,18 @@
+Web Dynpro Notes:
+
+Folgende Vorteile aus Sicht von Entwicklern:
+
+Programmierung beschränkt sich auf Geschäftslogik, keine wiederholenden Aufgaben zur GUI-Programmierung
+
+saubere Trennung von Layout und Logik
+
+vielfältige Backend-Unterstützung
+
+Wiederverwendung von Components innerhalb des Frameworks
+
+Zugriff auf Web Services möglich
+
+
+Webdynpros bestehen aus Components, Windows, Views, Context.
+
+Context-Mapping ist eine Daten REferenzierung zwischen COmponents und views

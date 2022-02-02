@@ -1,0 +1,19 @@
+ABAP -  Ungarische Notation
+
+it = internal Table
+ls = lokale Struktur
+lv = lokale Variable
+lt = lokale Tabelle
+
+L steht meistens für LOKAL
+G für GLOBAL
+M für MEMBER (=Klassenattribut, also "globale Variablen" innerhalb einer Klasse)
+I importing-Parameter
+E Exporting-Parameter
+C Changing-Parameter
+R Returning-Parameter
+
+R (Reference) oder O (Object) für eine Instanzvariable
+S (structure) oder w (workarea) für eine Feldliste
+V Variable
+T table
